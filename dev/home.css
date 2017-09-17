@@ -1,0 +1,146 @@
+body{
+	font-family: "raleway","Lucida Sans Unicode";
+	color: black;
+	background-color: rgb(200,200,200);
+	background-image: url("ressources/images/background-content.jpg");
+	line-height: 120%;
+	height: auto;
+	width: auto;
+	min-width: 900px;
+	overflow-x: hidden; 
+}
+
+
+/*#### En-tête ####*/ 
+
+.en-tete{
+	background-image: url("ressources/images/background.jpg");
+	margin: 47px 0px 0px 0px;
+	padding: 0px;
+	text-align:center;
+	line-height: 170%;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.en-tete-bordure{
+	margin: 30px auto 30px auto;
+	padding: 0 50px 0 50px;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	background-color: rgb(242,242,242);
+	display: block;
+	max-width: 500px;
+}
+
+.en-tete-img{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgb(242,242,242);
+	max-height: 160px;
+}
+
+.en-tete h1{
+	font-family: "raleway";
+	font-weight: bold;
+	font-size: 35px;
+}
+.en-tete h2{
+	font-family: "raleway";
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+
+/*#### Bas de page ####*/ 
+
+.bas-de-page{
+	margin: 0 -8px -8px -8px;
+	padding: 10px;
+	float: center;
+	width: auto;
+	height: auto;
+	background-image: url("ressources/images/background.jpg");
+	border-top-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.bas-de-page ul{
+	text-align: center;
+	color: black;
+	font-size: 17px;
+	list-style-type: none;
+	padding: 0;
+
+}
+
+.bas-de-page li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 15px 10px 15px;
+}
+
+.bas-de-page li:hover{
+	color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px 15px 10px 15px;
+	margin: 4px;
+	background-color: rgb(175,175,175);
+}
+.bas-de-page li a{
+	color: black;
+	text-decoration: none;
+}
+
+.bas-de-page-titre{
+	text-align:center;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+.bas-de-page-bloc{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(242,242,242);
+	border-style: solid;
+	border-color: black;
+}
+
+/*###### DESIGN DU CONTENU ###### */
+
+.contenu-page{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.contenu-page-titre{
+	font-family: "Raleway";
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.contenu-page-text{
+	line-height: 27px;
+	text-align: justify;
+	font-family: "Raleway";
+	font-size: 15px;
+}
+.contenu-page-img{
+	margin: 0px 15px 50px 15px;
+	max-height: 120px;
+}
+
