@@ -1,0 +1,38 @@
+/* SPEC PAGE CV */
+
+.titre-page{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.separateur-court{
+	border-color: black;
+	width: 15%;
+}
+
+.annee{
+	margin-top:15px;
+	font-size: 18px;
+	color: rgb(245,245,245);
+	background-color: rgb(60,60,60);
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 5px;
+	float: left;
+}
+
+.etablissement{
+	font-family: "raleway";
+	font-weight: bold;
+	font-size: 17px;
+}
+.lieu{
+	margin-top: 0;
+	font-family: "raleway";
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+}
